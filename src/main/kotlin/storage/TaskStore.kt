@@ -90,7 +90,7 @@ class TaskStore(
                     }
                 }
             }
-        }
+        } .sortedByDescending {it.createdAt}
     }
 
     /**
